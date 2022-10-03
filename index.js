@@ -10,4 +10,6 @@ server.listen(5000,'127.0.0.1',()=>{
   console.log("listeninig on port 5000")
   $env: PORT=5000
 console.log(PORT) ;
+var argv = require('optimist').argv;
+console.log(argv.port);
 })
