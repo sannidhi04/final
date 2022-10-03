@@ -8,7 +8,6 @@ const server=http.createServer((req,res)=>{
 })
 server.listen(5000,'127.0.0.1',()=>{
   console.log("listeninig on port 5000")
-  var arguments = process.argv ;
-  
-console.log(port) ;
+  $env: PORT=5000
+console.log(PORT) ;
 })
